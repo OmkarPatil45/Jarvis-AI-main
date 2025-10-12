@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS - Advanced Virtual Assistant</title>
+    <link rel="shortcut icon" href="avatar.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="particles-canvas"></canvas>
+    
+    <section class="main">
+        <div class="image-container">
+            <div class="image">
+                <img src="giphy.gif" alt="JARVIS Avatar">
+            </div>
+            <h1>J A R V I S</h1>
+            <p>Your Advanced Virtual Assistant. Powered by AI. Ready to assist.</p>
+        </div>
+        
+        <div class="chat-container" id="chatContainer">
+            <!-- Messages will be appended here -->
+        </div>
+        
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Type a command (e.g., 'weather in London') or click the mic..." />
+            <button class="talk" id="talkBtn"><i class="fas fa-microphone-alt"></i></button>
+        </div>
+        
+        <div class="status" id="status">Initializing...</div>
+        
+        <div class="features">
+            <i class="fas fa-globe" title="Web Search"></i>
+            <i class="fas fa-cloud-sun" title="Weather"></i>
+            <i class="fas fa-clock" title="Time/Date"></i>
+            <i class="fas fa-laptop" title="Apps"></i>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
