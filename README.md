@@ -1,9 +1,8 @@
 # 🎙️ JARVIS - Web-Based Virtual Assistant
 
+(home_bar.png)
+(search_bar.png)
 
-![Jarvis AI Screenshot](home_bar.png)
-
-![Jarvis AI Screenshot](search_bar.png)
 
 **JARVIS** is a responsive, interactive, web-based virtual assistant inspired by Iron Man.  
 It supports voice commands and text input to perform tasks like web searches, weather checks, time/date queries, and more. The interface features a cyberpunk theme with animated effects and chat history. Runs entirely in the browser—no backend required.
